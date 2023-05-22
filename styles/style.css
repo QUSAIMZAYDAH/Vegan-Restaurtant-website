@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+     
+     background-image:url(Opening\ 1.png) ;
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+
+   
+}
+
+.grid-contanier{
+    width: 69%;
+    margin-left: 232px;
+    display: grid;
+  
+    
+}
+.grid-contanier > *{
+    margin-top: 109px;
+  
+    background:black;
+    color: #fff;
+}
+
+.book{
+    font-size: 25px;
+    background: darkgoldenrod;
+    height: 71;
+    width: 200px;
+    border: 1px solid black;
+    padding-top: 21px;
+    padding-left: 40px;
+}
+
+.ul-list{ 
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    
+  
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item{
+    font-size: 19px;
+    margin: 0px 36px;
+    color: lemonchiffon;
+
+}
+.img1{
+    margin-top: 26px;
+    margin-right: 55px;
+    width: 28px;
+    height: 24px;
+}
+.information{
+    text-align: center;
+    margin-top: 234px;
+}
+.p1 ,.p2,.p3{
+    color: #fff;
+}
+.p1 ,.p2{
+    font-size: 47px;
+    color: lemonchiffon;
+
+}
+.p3{
+    margin-top: 12px;
+    font-size: 20px ;
+}
+button{
+    color: #fff;
+    margin-top: 26px;
+    background: none;
+    border: 3px solid blanchedalmond;
+    padding: 13px 62px 13px 62px;
+}
