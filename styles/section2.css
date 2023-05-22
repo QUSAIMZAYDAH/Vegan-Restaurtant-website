@@ -1,9 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@100&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 .section2{
-    background-image: url('../images/Opening\ 1.png');
+    background-image: url('../images/background-section2.png');
     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.left-side{
+    width: 640px;
+}
+.left-side .title{
+    color: #FFCE6D;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 36px;
+}
+.left-side .sub-title{
+    margin-top: 15px;
+    color: #FFFFFC;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 117.3%;
+
+}
+.left-side .content{
+    margin: 50px 0;
+    color:#FFFFFC;
+    line-height: 155.3%;
+    letter-spacing: 0.13em;
+    width: 538px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.Read-button{
+    border: 2px solid #FFFCCC  ;
+    background-color: transparent;
+    color: white;
+    width: 177px;
+    height: 44px;
+    font-weight: 700;
+    font-size: 18px;
+
 }
