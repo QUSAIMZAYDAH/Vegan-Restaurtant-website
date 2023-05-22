@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section2{
+    background-image: url('../images/Opening\ 1.png');
+    height: 100vh;
+}
